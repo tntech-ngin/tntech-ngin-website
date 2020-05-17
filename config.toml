@@ -7,8 +7,8 @@ googleAnalytics = ""
 publishDir = "docs"
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    author = "Susmit"
+    description = "Next Generation Internet Lab"
     githubUsername = "#"
     accent = "red"
     showBorder = true
@@ -48,7 +48,7 @@ publishDir = "docs"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/tntech-ngin/"
     name = "github"
     weight = 2
 
