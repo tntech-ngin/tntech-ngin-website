@@ -1,6 +1,6 @@
 baseURL = "https://tntech-ngin.github.io/tntech-ngin-website/"
 languageCode = "en-us"
-title = "Minimal"
+title = "ngin"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
