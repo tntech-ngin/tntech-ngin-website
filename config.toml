@@ -8,7 +8,7 @@ publishDir = "docs"
 
 [params]
     author = "Susmit"
-    description = "Next Generation Internet Lab"
+    description = "Next Generation Internet Lab at Tennessee Tech University"
     githubUsername = "#"
     accent = "red"
     showBorder = true
