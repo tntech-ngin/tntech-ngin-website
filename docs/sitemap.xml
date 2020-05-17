@@ -3,11 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tntech-ngin.github.io/tntech-ngin-website/categories/</loc>
+    <loc>https://tntech-ngin.github.io/tntech-ngin-website/about/</loc>
+    <lastmod>2020-05-16T21:04:51-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://tntech-ngin.github.io/tntech-ngin-website/</loc>
+    <lastmod>2020-05-16T21:04:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.github.io/tntech-ngin-website/categories/</loc>
   </url>
   
   <url>

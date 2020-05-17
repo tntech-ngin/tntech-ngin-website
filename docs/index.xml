@@ -6,9 +6,19 @@
     <description>Recent content on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2020 21:04:51 -0500</lastBuildDate>
     
 	<atom:link href="https://tntech-ngin.github.io/tntech-ngin-website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://tntech-ngin.github.io/tntech-ngin-website/about/</link>
+      <pubDate>Sat, 16 May 2020 21:04:51 -0500</pubDate>
+      
+      <guid>https://tntech-ngin.github.io/tntech-ngin-website/about/</guid>
+      <description>This is the page for the ngin lab at Tennessee Tech. More information coming soon.</description>
+    </item>
     
   </channel>
 </rss>
