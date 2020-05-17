@@ -1,4 +1,4 @@
-baseURL = "https://tntech-ngin.net"
+baseURL = "https://tntech-ngin.net/"
 languageCode = "en-us"
 title = "ngin"
 theme = "minimal"
