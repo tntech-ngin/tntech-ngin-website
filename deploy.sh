@@ -5,7 +5,6 @@ echo -e "Deploying updates to GitHub..."
 /usr/local/bin/hugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
-cd nextgen-ftp.github.io
 
 # Add changes to git.
 git add .
