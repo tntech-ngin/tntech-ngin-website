@@ -6,10 +6,19 @@
     <description>Recent content on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 21:04:51 -0500</lastBuildDate>
     
 	<atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project</title>
+      <link>https://tntech-ngin.net/project/</link>
+      <pubDate>Fri, 03 Jul 2020 08:35:25 +0545</pubDate>
+      
+      <guid>https://tntech-ngin.net/project/</guid>
+      <description>Name: Tennessee Tech Science DMZ
+Description: This project facilitates national and international research collaborations at Tennessee Technological University by establishing a dedicated 10 Gbps connection to Internet2 and creating a high-speed Science DMZ.</description>
+    </item>
     
     <item>
       <title>About</title>
