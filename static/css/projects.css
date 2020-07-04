@@ -27,15 +27,11 @@ section h3.section-subheading {
     margin: 20px;
 }
 
-.project:hover {
-    cursor: pointer;
-}
-
-.project:hover a{
+a:hover{
     text-decoration: none;
 }
 
-.project:hover .service-heading {
+a:hover .service-heading {
     color: #C8C372;
 }
 
