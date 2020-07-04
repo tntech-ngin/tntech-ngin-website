@@ -1,0 +1,36 @@
+{{ partial "header" . }}
+
+<main>
+
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ .Title }}</h2>
+                    <h3 class="section-subheading text-muted">What we do</h3>
+                </div>
+            </div>
+            <div class="row">
+                {{ range .Site.Data.projects }}
+                <div class="col-md-4">
+                    <div class="project">
+                        <a href="{{ .url | absURL }}" target="_blank">
+                            <div class="fa-stack fa-3x">
+                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                            </div>
+                            <h4 class="service-heading">{{ .title }}</h4>
+                            <p class="text-muted">{{ .description }}</p>
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!--    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}-->
+
+</main>
+
+{{ partial "paginator" . }}
+{{ partial "footer" . }}
