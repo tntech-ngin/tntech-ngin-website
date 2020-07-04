@@ -20,7 +20,7 @@ git commit -m "$msg"
 git pull origin master --rebase
 git push origin master
 
-### Come Back up to the Project Root
-#cd ..
-#
-#git push origin master
+## Come Back up to the Project Root
+cd ..
+
+git push origin master
