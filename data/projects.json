@@ -1,32 +1,22 @@
 [
   {
     "url": "https://named-data.net",
-    "title": "NDN",
-    "description": "Named Data Networking - The Internet2.0"
+    "title": "NDN - Named Data Networking",
+    "description": "The Named Data Networking (NDN) project aims to develop a new Internet architecture that prioritizes content delivery. NDN uses content names for all operations, making the network and applications simpler and more flexible."
+  },
+  {
+    "url": "https://hipft.net",
+    "title": "hipFT - A High-performance error-free file transfer protocol",
+    "description": "This project aims to improve the Internet’s ability to support big data transfers, both for science and commerce. hipFT enables users to transfer big files with confidence that the data will be accurately and efficiently copied over the network."
   },
   {
     "url": "#",
-    "title": "Tennessee Tech Science DMZ",
-    "description": "This project facilitates national and international research collaborations at Tennessee Technological University by establishing a dedicated 10 Gbps connection to Internet2 and creating a high-speed Science DMZ."
+    "title": "N-DISE - NDN for Data Intensive Science Experiments",
+    "description": "N-DISE project aims to deploy and commission the first prototype production-ready Named Data Networking (NDN)-based petascale data distribution, caching, access and analysis system serving major science programs, with the Large Hadron Collider (LHC) high energy physics program as the leading target use case."
   },
   {
     "url": "#",
-    "title": "Lorem ipsum dolor",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Netus et malesuada fames ac turpis egestas integer eget aliquet. Vel pretium lectus quam id leo in."
-  },
-  {
-    "url": "#",
-    "title": "Mauris ipsum",
-    "description": "Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante."
-  },
-  {
-    "url": "#",
-    "title": "Curabitur sit amet mauris.",
-    "description": "Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Quisque nisl felis, venenatis tristique, dignissim in, ultrices sit amet, augue."
-  },
-  {
-    "url": "#",
-    "title": "Curabitur tortor",
-    "description": "Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa."
+    "title": "LLRIS - Low-Latency for Augmented Reality Interactive Systems",
+    "description": "The AR/VR community agrees ideal latency for communication should be 10-50 ms. This is hard to achieve using current network technologies and cloud computing offerings. LLRIS explores an edge-cloud hybrid model with results potentially cached near the users to overcome the latency problem."
   }
 ]
