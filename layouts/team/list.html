@@ -16,10 +16,8 @@
                 <div class="col-md-4">
                     <!--<a href="{{ .url | absURL }}" target="_blank">-->
                     <div class="team-member">
-                        {{ $default := (print $base "images/team/default.png") }}
                         {{ $src := (print $base "images/team/" .img) }}
-                        <img src="{{ $src }}" alt="{{ .title }}" class="img-circle"
-                             onerror="this.src='{{ $default }}'">
+                        <img src="{{ $src }}" alt="{{ .title }}" class="img-circle">
                         <h4>{{ .title }}</h4>
                         <p class="text-muted">{{ .position }}</p>
                     </div>
