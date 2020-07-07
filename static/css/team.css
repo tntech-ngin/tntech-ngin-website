@@ -2,9 +2,13 @@ main {
     max-width: none;
 }
 
+h4 {
+    line-height: 1.5;
+}
+
 p {
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.5;
 }
 
 section {
@@ -25,21 +29,13 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-.project {
+.team-member {
     margin: 20px;
 }
 
-a:hover{
-    text-decoration: none;
+img {
+    height: 225px;
+    width: 225px;
+    border: 5px solid var(--accent);
 }
 
-a:hover .service-heading {
-    opacity: 0.55;
-}
-
-.service-heading {
-    margin: 15px 0;
-    text-transform: none;
-    font-weight: 700;
-    line-height: 1.4;
-}

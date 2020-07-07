@@ -33,5 +33,8 @@
 <!-- load css according to pages only -->
 {{ if eq .Params.css "projects"}}
 <link rel="stylesheet" href="{{ "css/projects.css" | absURL }}">
+
+{{ else if eq .Params.css "team"}}
+<link rel="stylesheet" href="{{ "css/team.css" | absURL }}">
 {{ end }}
 

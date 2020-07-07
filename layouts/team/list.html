@@ -1,0 +1,37 @@
+{{ partial "header" . }}
+
+<main>
+
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ .Title }}</h2>
+                    <h3 class="section-subheading text-muted">Everyone that works with the group</h3>
+                </div>
+            </div>
+            <div class="row">
+                {{ $base := .Site.BaseURL }}
+                {{ range .Site.Data.team }}
+                <div class="col-md-4">
+                    <!--<a href="{{ .url | absURL }}" target="_blank">-->
+                    <div class="team-member">
+                        {{ $default := (print $base "images/team/default.png") }}
+                        {{ $src := (print $base "images/team/" .img) }}
+                        <img src="{{ $src }}" alt="{{ .title }}" class="img-circle"
+                             onerror="this.src='{{ $default }}'">
+                        <h4>{{ .title }}</h4>
+                        <p class="text-muted">{{ .position }}</p>
+                    </div>
+                    <!--</a>-->
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!--    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}-->
+
+</main>
+
+{{ partial "paginator" . }}
+{{ partial "footer" . }}
