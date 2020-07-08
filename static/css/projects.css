@@ -25,6 +25,16 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
 .project {
     margin: 20px;
 }

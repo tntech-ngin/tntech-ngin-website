@@ -10,9 +10,9 @@
                     <h3 class="section-subheading text-muted">What we do</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row display-flex">
                 {{ range .Site.Data.projects }}
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <a href="{{ .url | absURL }}" target="_blank">
                         <div class="project">
                             <div class="fa-stack fa-3x">
@@ -32,5 +32,4 @@
 
 </main>
 
-{{ partial "paginator" . }}
 {{ partial "footer" . }}

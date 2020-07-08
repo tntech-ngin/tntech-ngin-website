@@ -2,26 +2,26 @@
   {
     "img": "sample.jpg",
     "title": "John Doe",
-    "position": "Graduate Research Assistant"
+    "description": "Graduate Research Assistant"
   },
   {
     "img": "default.png",
     "title": "John Doe",
-    "position": "Graduate Research Assistant"
+    "description": "Graduate Research Assistant"
   },
   {
     "img": "default.png",
     "title": "John Doe",
-    "position": "Graduate Research Assistant"
+    "description": "Graduate Research Assistant"
   },
   {
     "img": "default.png",
     "title": "John Doe",
-    "position": "Graduate Research Assistant"
+    "description": "Graduate Research Assistant"
   },
   {
     "img": "default.png",
     "title": "John Doe",
-    "position": "Graduate Research Assistant"
+    "description": "Graduate Research Assistant"
   }
 ]

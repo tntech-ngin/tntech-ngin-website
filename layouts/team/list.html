@@ -10,16 +10,16 @@
                     <h3 class="section-subheading text-muted">Everyone that works with the group</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row display-flex">
                 {{ $base := .Site.BaseURL }}
                 {{ range .Site.Data.team }}
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <!--<a href="{{ .url | absURL }}" target="_blank">-->
                     <div class="team-member">
                         {{ $src := (print $base "images/team/" .img) }}
                         <img src="{{ $src }}" alt="{{ .title }}" class="img-circle">
                         <h4>{{ .title }}</h4>
-                        <p class="text-muted">{{ .position }}</p>
+                        <p class="text-muted">{{ .description }}</p>
                     </div>
                     <!--</a>-->
                 </div>
@@ -31,5 +31,4 @@
 
 </main>
 
-{{ partial "paginator" . }}
 {{ partial "footer" . }}

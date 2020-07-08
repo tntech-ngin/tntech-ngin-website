@@ -3,12 +3,12 @@ main {
 }
 
 h4 {
-    line-height: 1.5;
+    margin: 18px 0 5px 0;
 }
 
 p {
     font-size: 14px;
-    line-height: 0.5;
+    line-height: 1.5;
 }
 
 section {
@@ -29,8 +29,18 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
 .team-member {
-    margin: 20px;
+    margin: 25px;
 }
 
 img {
