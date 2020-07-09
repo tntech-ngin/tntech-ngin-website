@@ -1,0 +1,45 @@
+main {
+    max-width: none;
+    text-align: left;
+}
+
+section {
+    padding: inherit;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 60px;
+    text-transform: none;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.item h4 {
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.item__meta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item__meta__tags {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.meta__icon {
+    margin-right: 5px;
+    vertical-align: middle;
+    fill: #c4c4c4
+}
+

@@ -1,9 +1,20 @@
 <div class="item">
-    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader" }}
-    {{ with .Content }} {{ $.Scratch.Set "subheader" . }} {{ end }}
-
-    <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
-    <h5>{{ $.Scratch.Get "subheader" }}</h5>
-    {{ partial "tags" . }}
-
+    <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+    <div class="item__meta">
+        <div class="item__meta__datetime">
+            <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28">
+                <path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"></path>
+            </svg>
+            <time class="text-muted">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+        </div>
+        <div class="item__meta__tags">
+            {{ partial "tags" . }}
+        </div>
+    </div>
+    <p class="text-muted">{{ .Summary }}</p>
+    {{ if .Truncated }}
+    <div class="readmore">
+        <a href="{{ .RelPermalink }}">Read More...</a>
+    </div>
+    {{ end }}
 </div>

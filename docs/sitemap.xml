@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tntech-ngin.net/news/</loc>
-    <lastmod>2020-07-03T08:35:25+05:45</lastmod>
+    <loc>https://tntech-ngin.net/</loc>
+    <lastmod>2020-07-09T22:24:45+05:45</lastmod>
   </url>
   
   <url>
-    <loc>https://tntech-ngin.net/</loc>
+    <loc>https://tntech-ngin.net/news/ut-enim-ad-minima/</loc>
+    <lastmod>2020-07-09T22:24:45+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/vel-illum-qui-dolorem/</loc>
+    <lastmod>2020-07-08T21:07:21+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/quis-autem-vel-eum-iure/</loc>
+    <lastmod>2020-07-07T21:07:04+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/sed-quia-non-numquam/</loc>
+    <lastmod>2020-07-06T21:07:00+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/nihil-molestiae-consequatur/</loc>
+    <lastmod>2020-07-05T20:15:13+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/</loc>
     <lastmod>2020-07-03T08:35:25+05:45</lastmod>
   </url>
   
@@ -23,16 +48,18 @@
   </url>
   
   <url>
+    <loc>https://tntech-ngin.net/news/magnam-aliquam-quaerat-voluptatem/</loc>
+    <lastmod>2020-07-02T20:15:07+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/news/neque-porro-quisquam/</loc>
+    <lastmod>2020-05-28T20:15:04+05:45</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tntech-ngin.net/about/</loc>
     <lastmod>2020-05-16T21:04:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tntech-ngin.net/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tntech-ngin.net/tags/</loc>
   </url>
   
 </urlset>

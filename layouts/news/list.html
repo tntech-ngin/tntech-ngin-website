@@ -1,10 +1,20 @@
 {{ partial "header" . }}
 
 <main>
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ .Title }}</h2>
+                    <h3 class="section-subheading text-muted">News and important updates</h3>
+                </div>
+            </div>
 
-    <h2>{{ .Title }}</h2>
-
-    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+            {{ range .Paginator.Pages }}
+                {{ partial "list-item" . }}
+            {{ end }}
+        </div>
+    </section>
 
 </main>
 
