@@ -1,5 +1,5 @@
 ---
-title: "Ut enim ad minima"
+title: "Ut enim ad minima veniam quis nostrum exercitationem"
 date: 2020-07-09T22:24:45+05:45
 slug: "ut-enim-ad-minima"
 tags: ["books", "music"]

@@ -21,8 +21,14 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+.item a:hover {
+    text-decoration: none;
+    opacity: 0.55;
+}
+
 .item h4 {
     text-transform: none;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.4;
 }
