@@ -6,7 +6,7 @@
     <description>Recent content on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2020 22:24:45 +0545</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2020 18:17:42 +0545</lastBuildDate>
     
 	<atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
     
@@ -81,6 +81,177 @@
       
       <guid>https://tntech-ngin.net/about/</guid>
       <description>Welcome to the ngin, the Next Generation Internet Research Lab at Tennessee Tech. Our research areas include Named Data Networking, Big Science data transfers, Networking for AR/VR applications, Vehicular networks, Data center networking, and more. You can find a list of the latest publications in the Publications page. The research projects are guided by Dr. Susmit Shannigrahi.</description>
+    </item>
+    
+    <item>
+      <title>Named Data Networking based File Access forXRootD</title>
+      <link>https://tntech-ngin.net/publications/lordache-2020-named/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/lordache-2020-named/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Next-Generation Networking and Edge Computing for Mixed Reality Real-Time Interactive Systems</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2020-next/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2020-next/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SDN/NDN Integrated Big Data Ecosystem for Big Science (Presentation)</title>
+      <link>https://tntech-ngin.net/publications/yeh-2020-sdn/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/yeh-2020-sdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Future of Networking is the Future of Big Data</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2019-future/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2019-future/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bridging the ICN Deployment Gap with IPoC: An IP-over-ICN protocol for 5G Networks</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2018-bridging/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2018-bridging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MANAGING SCIENTIFIC DATA WITH NDN</title>
+      <link>https://tntech-ngin.net/publications/olschanowskymanaging/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/olschanowskymanaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Named Data Networking Strategies for Improving Large Scientific Data Transfers</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2018-named/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2018-named/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NDN construction for big science: Lessons learned from establishing a testbed</title>
+      <link>https://tntech-ngin.net/publications/lim-2018-ndn/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/lim-2018-ndn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NDN-SCI for managing large scale genomics data</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2018-ndn/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2018-ndn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NFD Developer’s Guide</title>
+      <link>https://tntech-ngin.net/publications/alexander-2018-nfd/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/alexander-2018-nfd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCARI: a strategic caching and reservation protocol for ICN</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2018-scari/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2018-scari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet Protocol Tunneling over Content Centric Mobile Networks</title>
+      <link>https://tntech-ngin.net/publications/white-2017-internet/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/white-2017-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Request aggregation, caching, and forwarding strategies for improving large climate data distribution with NDN: a case study</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2017-request/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2017-request/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traceroute for Named Data Networking</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2017-traceroute/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2017-traceroute/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing scientific data with named data networking</title>
+      <link>https://tntech-ngin.net/publications/fan-2015-managing/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/fan-2015-managing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Named data networking in climate research and hep applications</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2015-named/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2015-named/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NFD Developer’s Guide</title>
+      <link>https://tntech-ngin.net/publications/afanasyev-2014-nfd/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/afanasyev-2014-nfd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supporting climate research using named data networking</title>
+      <link>https://tntech-ngin.net/publications/olschanowsky-2014-supporting/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/olschanowsky-2014-supporting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast BGP convergence following link/router failure</title>
+      <link>https://tntech-ngin.net/publications/ray-2010-fast/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/ray-2010-fast/</guid>
+      <description></description>
     </item>
     
   </channel>

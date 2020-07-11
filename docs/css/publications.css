@@ -1,0 +1,105 @@
+main {
+    max-width: none;
+    text-align: left;
+}
+
+section {
+    padding: inherit;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 60px;
+    text-transform: none;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.item__icon {
+    margin-right: 10px;
+}
+
+h4.item__author, h4.item__year, a.item__url, em.item__publication {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+h4.item__author, h4.item__year {
+    display: inline;
+}
+
+a.item__url {
+    text-decoration: none;
+}
+
+a.item__url:hover {
+    opacity: 0.55;
+}
+
+div.item__buttons {
+    display: block;
+}
+
+span.item__cite {
+    display: none;
+}
+
+button.item__cite-button, button.item__pdf-button {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 1px 10px;
+    background-color: #fff;
+    border: 1px solid var(--accent);
+    font-size: 14px;
+}
+
+button.btn-download {
+    background-color: #fff;
+    border: 1px solid var(--accent);
+    font-size: 14px;
+}
+
+button.item__cite-button:hover, button.item__pdf-button:hover, button.btn-download:hover {
+    background-color: var(--accent);
+    color: #fff;
+}
+
+#cite .modal-content {
+    background-color: #f8f8f8;
+}
+
+#cite .modal-header {
+    color: var(--accent);
+}
+
+#cite .modal-body {
+    max-height: 325px;
+    overflow-y: auto;
+    padding: 0;
+    border: 1px solid var(--accent);
+}
+
+#cite .modal-body pre {
+    margin: 0;
+    display: table;
+    width: 100%;
+    background-color: #fff;
+}
+
+#cite .modal-body code {
+    font-size: 13px;
+    background: none;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+#cite .modal-footer i {
+    margin-right: 5px;
+}

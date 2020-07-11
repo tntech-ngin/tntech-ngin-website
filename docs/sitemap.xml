@@ -4,7 +4,12 @@
   
   <url>
     <loc>https://tntech-ngin.net/</loc>
-    <lastmod>2020-07-09T22:24:45+05:45</lastmod>
+    <lastmod>2020-07-11T18:17:42+05:45</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/</loc>
+    <lastmod>2020-07-11T18:17:42+05:45</lastmod>
   </url>
   
   <url>
@@ -60,6 +65,101 @@
   <url>
     <loc>https://tntech-ngin.net/about/</loc>
     <lastmod>2020-05-16T21:04:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/lordache-2020-named/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2020-next/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/yeh-2020-sdn/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2019-future/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2018-bridging/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/olschanowskymanaging/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2018-named/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/lim-2018-ndn/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2018-ndn/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/alexander-2018-nfd/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2018-scari/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/white-2017-internet/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2017-request/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2017-traceroute/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/fan-2015-managing/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/shannigrahi-2015-named/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/afanasyev-2014-nfd/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/olschanowsky-2014-supporting/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/publications/ray-2010-fast/</loc>
+    <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

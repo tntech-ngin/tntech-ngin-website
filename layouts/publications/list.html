@@ -1,0 +1,46 @@
+{{ partial "header" . }}
+
+<main>
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ .Title }}</h2>
+                    <h3 class="section-subheading text-muted">Publications and citations</h3>
+                </div>
+            </div>
+
+            {{ range (.Paginator 8).Pages }}
+                {{ partial "list-item-publication" . }}
+            {{ end }}
+        </div>
+    </section>
+
+</main>
+
+<!-- Modal -->
+<div id="cite" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cite</h4>
+            </div>
+            <div class="modal-body">
+                <pre>
+                    <code></code>
+                </pre>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-download" data-dismiss="modal">
+                    <i class="fa fa-download"></i>
+                    Download
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{ partial "paginator" . }}
+{{ partial "footer" . }}

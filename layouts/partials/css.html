@@ -42,5 +42,8 @@
 
 {{ else if eq .Params.css "news"}}
 <link rel="stylesheet" href="{{ "css/news.css" | absURL }}">
+
+{{ else if eq .Params.css "publications"}}
+<link rel="stylesheet" href="{{ "css/publications.css" | absURL }}">
 {{ end }}
 
