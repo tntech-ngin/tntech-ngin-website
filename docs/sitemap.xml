@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tntech-ngin.net/</loc>
-    <lastmod>2020-07-11T18:17:42+05:45</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tntech-ngin.net/publications/</loc>
     <lastmod>2020-07-11T18:17:42+05:45</lastmod>
   </url>
@@ -53,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://tntech-ngin.net/news/magnam-aliquam-quaerat-voluptatem/</loc>
+    <loc>https://tntech-ngin.net/news/tntech-science-dmz/</loc>
     <lastmod>2020-07-02T20:15:07+05:45</lastmod>
   </url>
   
@@ -64,6 +59,11 @@
   
   <url>
     <loc>https://tntech-ngin.net/about/</loc>
+    <lastmod>2020-05-16T21:04:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/</loc>
     <lastmod>2020-05-16T21:04:51-05:00</lastmod>
   </url>
   
@@ -160,6 +160,14 @@
   <url>
     <loc>https://tntech-ngin.net/publications/ray-2010-fast/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tntech-ngin.net/tags/</loc>
   </url>
   
 </urlset>
