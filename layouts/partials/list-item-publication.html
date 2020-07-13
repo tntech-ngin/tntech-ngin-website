@@ -11,13 +11,18 @@
     <div class="item__buttons">
         {{ $scratch := newScratch  }}
         {{ $scratch.Set "author_copy" "#" }}
+        {{ $scratch.Set "published_version_url" "#" }}
 
         {{ if isset .Params "author_copy" }}
         {{ $scratch.Set "author_copy" (print .Site.BaseURL "pdf/" .Params.author_copy) }}
         {{ end }}
 
+        {{ if isset .Params "published_version_url" }}
+        {{ $scratch.Set "published_version_url" .Params.published_version_url }}
+        {{ end }}
+
         <a href="{{ $scratch.Get "author_copy" }}" role="button" class="btn item__author-button">Author's Copy</a>
-        <a href="{{ .Params.published_version_url }}" role="button" class="btn item__published-button">Published Version</a>
+        <a href="{{ $scratch.Get "published_version_url" }}" role="button" class="btn item__published-button" target="_blank">Published Version</a>
 
         {{ $citePath := (print .File.Dir "/cite.bib") }}
         {{ $file := chomp (readFile $citePath) }}
