@@ -1,20 +1,28 @@
-{{ if .Params.authors }}
 <div class="item">
     <i class="fa fa-file-text-o item__icon text-muted"></i>
+    {{ if .Params.authors }}
     <h4 class="item__author">
         {{ delimit .Params.authors ", " }}
     </h4>
+    {{ end }}
     <h4 class="item__year">({{ .Params.date.Format "2006" }}).</h4>
     <a class="item__url" href="{{ .Params.url }}">{{ .Title }}</a>
     <em class="item__publication">{{ trim .Params.publication "*" }}</em>
     <div class="item__buttons">
-        <a href="#" role="button" class="btn item__author-button">Author's Copy</a>
-        <a href="#" role="button" class="btn item__published-button">Published Version</a>
+        {{ $scratch := newScratch  }}
+        {{ $scratch.Set "author_copy" "#" }}
+
+        {{ if isset .Params "author_copy" }}
+        {{ $scratch.Set "author_copy" (print .Site.BaseURL "pdf/" .Params.author_copy) }}
+        {{ end }}
+
+        <a href="{{ $scratch.Get "author_copy" }}" role="button" class="btn item__author-button">Author's Copy</a>
+        <a href="{{ .Params.published_version }}" role="button" class="btn item__published-button">Published Version</a>
+
         {{ $citePath := (print .File.Dir "/cite.bib") }}
         {{ $file := chomp (readFile $citePath) }}
         <span class="item__cite">{{ $file }}</span>
         <button type="button" class="btn item__cite-button" data-toggle="modal" data-target="#cite">Cite</button>
     </div>
 </div>
-{{ end }}
 

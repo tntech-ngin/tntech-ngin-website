@@ -7,5 +7,7 @@ publication_types: ["1"]
 abstract: ""
 featured: false
 publication: "*J. Phys. Conf. Ser.*"
+author_copy: "dummy.pdf"
+published_version_url: "#"
 ---
 
