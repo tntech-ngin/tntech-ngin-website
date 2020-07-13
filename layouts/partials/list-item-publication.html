@@ -8,7 +8,8 @@
     <a class="item__url" href="{{ .Params.url }}">{{ .Title }}</a>
     <em class="item__publication">{{ trim .Params.publication "*" }}</em>
     <div class="item__buttons">
-        <button type="button" class="btn item__pdf-button">PDF</button>
+        <a href="#" role="button" class="btn item__author-button">Author's Copy</a>
+        <a href="#" role="button" class="btn item__published-button">Published Version</a>
         {{ $citePath := (print .File.Dir "/cite.bib") }}
         {{ $file := chomp (readFile $citePath) }}
         <span class="item__cite">{{ $file }}</span>

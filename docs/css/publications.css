@@ -51,13 +51,14 @@ span.item__cite {
     display: none;
 }
 
-button.item__cite-button, button.item__pdf-button {
+button.item__cite-button, a.item__author-button, a.item__published-button {
     margin-top: 5px;
     margin-right: 5px;
     padding: 1px 10px;
     background-color: #fff;
     border: 1px solid var(--accent);
     font-size: 14px;
+    color: inherit;
 }
 
 button.btn-download {
@@ -66,9 +67,9 @@ button.btn-download {
     font-size: 14px;
 }
 
-button.item__cite-button:hover, button.item__pdf-button:hover, button.btn-download:hover {
+button.item__cite-button:hover, a.item__author-button:hover, a.item__published-button:hover, button.btn-download:hover {
     background-color: var(--accent);
-    color: #fff;
+    color: #fff !important;
 }
 
 #cite .modal-content {
