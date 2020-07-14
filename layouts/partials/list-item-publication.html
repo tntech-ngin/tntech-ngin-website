@@ -5,22 +5,22 @@
         {{ delimit .Params.authors ", " }}
     </h4>
     {{ end }}
+    {{ $scratch := newScratch  }}
+    {{ $scratch.Set "author_copy" "#" }}
+    {{ $scratch.Set "published_version_url" "#" }}
+
+    {{ if isset .Params "author_copy" }}
+    {{ $scratch.Set "author_copy" (print .Site.BaseURL "pdf/" .Params.author_copy) }}
+    {{ end }}
+
+    {{ if isset .Params "published_version_url" }}
+    {{ $scratch.Set "published_version_url" .Params.published_version_url }}
+    {{ end }}
+
     <h4 class="item__year">({{ .Params.date.Format "2006" }}).</h4>
-    <a class="item__url" href="{{ .Params.url }}">{{ .Title }}</a>
+    <a class="item__url" href="{{ $scratch.Get "published_version_url" }}" target="_blank">{{ .Title }}</a>
     <em class="item__publication">{{ trim .Params.publication "*" }}</em>
     <div class="item__buttons">
-        {{ $scratch := newScratch  }}
-        {{ $scratch.Set "author_copy" "#" }}
-        {{ $scratch.Set "published_version_url" "#" }}
-
-        {{ if isset .Params "author_copy" }}
-        {{ $scratch.Set "author_copy" (print .Site.BaseURL "pdf/" .Params.author_copy) }}
-        {{ end }}
-
-        {{ if isset .Params "published_version_url" }}
-        {{ $scratch.Set "published_version_url" .Params.published_version_url }}
-        {{ end }}
-
         <a href="{{ $scratch.Get "author_copy" }}" role="button" class="btn item__author-button">Author's Copy</a>
         <a href="{{ $scratch.Get "published_version_url" }}" role="button" class="btn item__published-button" target="_blank">Published Version</a>
 
