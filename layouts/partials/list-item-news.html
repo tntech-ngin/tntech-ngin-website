@@ -11,7 +11,8 @@
             {{ partial "tags" . }}
         </div>
     </div>
-    <p class="text-muted">{{ .Summary }}</p>
+    <p class="item__summary">{{ .Summary }}</p>
+
     {{ if .Truncated }}
     <div class="readmore">
         <a href="{{ .RelPermalink }}">Read More...</a>

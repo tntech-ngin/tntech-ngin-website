@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2020-05-16T21:04:51-05:00
+type: "about"
 ---
 Welcome to the ngin, the Next Generation Internet Research Lab at
 Tennessee Tech.  Our research areas include Named Data Networking, Big

@@ -1,6 +1,6 @@
 main {
     max-width: none;
-    text-align: left;
+    text-align: justify;
 }
 
 section {
@@ -48,4 +48,3 @@ section h3.section-subheading {
     vertical-align: middle;
     fill: #c4c4c4
 }
-

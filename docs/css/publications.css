@@ -1,6 +1,6 @@
 main {
     max-width: none;
-    text-align: left;
+    text-align: justify;
 }
 
 section {
@@ -22,11 +22,11 @@ section h3.section-subheading {
 }
 
 .item__icon {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 h4.item__author, h4.item__year, a.item__url, em.item__publication {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.75;
 }
@@ -54,7 +54,7 @@ span.item__cite {
 button.item__cite-button, a.item__author-button, a.item__published-button {
     margin-top: 5px;
     margin-right: 5px;
-    padding: 1px 10px;
+    padding: 0.7px 8px;
     background-color: #fff;
     border: 1px solid var(--accent);
     font-size: 14px;
