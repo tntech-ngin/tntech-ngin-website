@@ -6,10 +6,19 @@
     <description>Recent content on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2020 18:17:42 +0545</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 21:04:51 -0500</lastBuildDate>
     
 	<atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What&#39;s in a Name? Naming Big Science Data in Information-Centric Networking</title>
+      <link>https://tntech-ngin.net/publications/shannigrahi-2020-names/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tntech-ngin.net/publications/shannigrahi-2020-names/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tennessee Tech Science DMZ</title>
@@ -18,7 +27,7 @@
       
       <guid>https://tntech-ngin.net/news/tntech-science-dmz/</guid>
       <description>&lt;p&gt;Prof. Shannigrahi and Prof. Rogers has received a $263K grant from National Science Foundation to create a Science DMZ at Tennessee Tech.
-Created in collaboration with IT services, this project will enhance movement of large datasets to and from the campus. It will also 
+Created in collaboration with IT services, this project will enhance movement of large datasets to and from the campus. It will also
 bring IPV6 deployment to the campus. &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=2018373&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
