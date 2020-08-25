@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tntech-ngin.net/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tntech-ngin.net/publications/shannigrahi-2020-names/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -34,11 +39,6 @@
   
   <url>
     <loc>https://tntech-ngin.net/about/</loc>
-    <lastmod>2020-05-16T21:04:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tntech-ngin.net/</loc>
     <lastmod>2020-05-16T21:04:51-05:00</lastmod>
   </url>
   
@@ -135,14 +135,6 @@
   <url>
     <loc>https://tntech-ngin.net/publications/ray-2010-fast/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tntech-ngin.net/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tntech-ngin.net/tags/</loc>
   </url>
   
 </urlset>
