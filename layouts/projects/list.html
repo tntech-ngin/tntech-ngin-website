@@ -11,16 +11,17 @@
                 </div>
             </div>
             <div class="row display-flex">
+                {{ $base := .Site.BaseURL }}
                 {{ range .Site.Data.projects }}
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <a href="{{ .url | absURL }}" target="_blank">
                         <div class="project">
-                            <div class="fa-stack fa-3x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cube fa-stack-1x fa-inverse"></i>
+                            {{ $src := (print $base "images/projects/" .img) }}
+                            <img src="{{ $src }}" alt="{{ .title }}" class="img-responsive" />
+                            <div class="caption">
+                                <h4 class="service-heading">{{ .title }}</h4>
+                                <p class="text-muted">{{ .description }}</p>
                             </div>
-                            <h4 class="service-heading">{{ .title }}</h4>
-                            <p class="text-muted">{{ .description }}</p>
                         </div>
                     </a>
                 </div>

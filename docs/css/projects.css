@@ -37,14 +37,25 @@ section h3.section-subheading {
 
 .project {
     margin: 20px;
+    display: block;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-a:hover{
+.project .caption {
+    padding: 8px;
+}
+
+a:hover {
     text-decoration: none;
 }
 
-a:hover .service-heading {
-    opacity: 0.55;
+a:hover .project {
+    box-shadow: 5px 10px 18px #888;
+    transform: scale(1.01);
 }
 
 .service-heading {

@@ -34,7 +34,10 @@
 {{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . | absURL }}"> {{ end }}
 
 <!-- load css according to pages only -->
-{{ if eq .Params.css "projects"}}
+{{ if eq .Params.css "index"}}
+<link rel="stylesheet" href="{{ "css/index.css" | absURL }}">
+
+{{ else if eq .Params.css "projects"}}
 <link rel="stylesheet" href="{{ "css/projects.css" | absURL }}">
 
 {{ else if eq .Params.css "team"}}

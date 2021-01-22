@@ -2,6 +2,10 @@ p {
     line-height: 1.75;
 }
 
+.card {
+    border-color: var(--accent);
+}
+
 /* Pagination starts */
 .pagination {
     display: flex;
@@ -46,3 +50,4 @@ p {
     color: #777;
 }
 /* Pagination ends */
+

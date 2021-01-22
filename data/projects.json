@@ -2,21 +2,25 @@
   {
     "url": "https://named-data.net",
     "title": "NDN - Named Data Networking",
+    "img": "named-data-networking.jpg",
     "description": "The Named Data Networking (NDN) project aims to develop a new Internet architecture that prioritizes content delivery. NDN uses content names for all operations, making the network and applications simpler and more flexible."
   },
   {
     "url": "https://hipft.net",
     "title": "hipFT - A High-performance error-free file transfer protocol",
+    "img": "hipft.jpg",
     "description": "This project aims to improve the Internet’s ability to support big data transfers, both for science and commerce. hipFT enables users to transfer big files with confidence that the data will be accurately and efficiently copied over the network."
   },
   {
     "url": "#",
-    "title": "N-DISE - NDN for Data Intensive Science Experiments",
-    "description": "N-DISE project aims to deploy and commission the first prototype production-ready Named Data Networking (NDN)-based petascale data distribution, caching, access and analysis system serving major science programs, with the Large Hadron Collider (LHC) high energy physics program as the leading target use case."
+    "title": "LLRIS - Low-Latency for Augmented Reality Interactive Systems",
+    "img": "augmented-reality.jpg",
+    "description": "The AR/VR community agrees ideal latency for communication should be 10-50 ms. This is hard to achieve using current network technologies and cloud computing offerings. LLRIS explores an edge-cloud hybrid model with results potentially cached near the users to overcome the latency problem."
   },
   {
     "url": "#",
-    "title": "LLRIS - Low-Latency for Augmented Reality Interactive Systems",
-    "description": "The AR/VR community agrees ideal latency for communication should be 10-50 ms. This is hard to achieve using current network technologies and cloud computing offerings. LLRIS explores an edge-cloud hybrid model with results potentially cached near the users to overcome the latency problem."
+    "title": "N-DISE - NDN for Data Intensive Science Experiments",
+    "img": "data-science.jpg",
+    "description": "N-DISE project aims to deploy and commission the first prototype production-ready Named Data Networking (NDN)-based petascale data distribution, caching, access and analysis system serving major science programs, with the Large Hadron Collider (LHC) high energy physics program as the leading target use case."
   }
 ]

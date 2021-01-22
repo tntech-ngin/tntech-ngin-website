@@ -1,0 +1,83 @@
+main {
+    max-width: none;
+    text-align: justify;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 25px;
+}
+
+.main-heading h1 {
+    font-size: 5rem;
+}
+
+.main-heading h4 {
+    font-size: 1.7rem;
+}
+
+.section-title h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+}
+
+.section-title span {
+    border-bottom: 1px solid rgba(0, 0, 0, .44);
+    border-color: var(--accent);
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: -1px;
+}
+
+section.about-us {
+    line-height: 2.4rem;
+    padding: 10px 25px;
+}
+
+a:hover {
+    opacity: 0.55;
+    text-decoration: none;
+}
+
+.panel-body h4 {
+    color: var(--accent);
+    line-height: 2.4rem;
+}
+
+@media (max-width: 991px) {
+    .panel-body h4 {
+        margin-top: 25px;
+    }
+}
+
+.all-news, .all-publications {
+    margin-top: 1.5rem;
+}
+
+.title {
+    line-height: 2.6rem;
+}
+
+.publications .authors {
+    line-height: 2.4rem;
+}
+
+/**/
+.left, .middle, .right {
+    /*padding-left: 3rem;*/
+}
+
+.announcements {
+    margin-top: 2rem;
+    /*padding: 0;*/
+}
+
+.announcements .section-title div {
+    margin-top: 2rem;
+}
+section.announcements {
+    line-height: 2.4rem;
+}

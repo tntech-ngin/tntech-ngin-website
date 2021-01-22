@@ -47,10 +47,10 @@ disableKinds = ["taxonomy", "term"]
     name = "Team"
     weight = 5
 
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 6
+#[[menu.main]]
+#    url = "/about/"
+#    name = "About"
+#    weight = 6
 
 
 # Social icons to be shown on the right-hand side of the navigation bar.
@@ -58,26 +58,26 @@ disableKinds = ["taxonomy", "term"]
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:sshannigrahi@tntech.edu"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/tntech-ngin/"
+    url = "https://github.com/tntech-ngin"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "#"
     name = "twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "#"
     name = "linkedin"
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
+    url = "#"
     name = "stack-overflow"
     weight = 5

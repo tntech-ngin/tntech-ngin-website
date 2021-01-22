@@ -1,0 +1,108 @@
+{{ partial "header" . }}
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="left col-lg-2 col-md-2 col-sm-12 col-xs-12">
+
+            </div>
+            <div class="middle col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <section class="main-heading">
+                    <h1><strong>{{ .Site.Title }}</strong></h1>
+                    <h4>
+                        {{ markdownify .Site.Params.Description }}
+                    </h4>
+                </section>
+
+                <section class="about-us">
+                    Welcome to the ngin, the Next Generation Internet Research Lab at
+                    Tennessee Tech. Our research areas include Named Data Networking, Big
+                    Science data transfers, Networking for AR/VR applications, Vehicular
+                    networks, Data center networking, and more. You can find a list of the
+                    latest publications in the Publications page. The research projects
+                    are guided by Dr. Susmit Shannigrahi.
+                </section>
+
+                <section class="recent-news">
+                    <div class="section-title">
+                        <h3><span>Latest News</span></h3>
+                    </div>
+                    <div class="row">
+                        {{with .Site.GetPage "section" "news"}}
+                        {{ range first 2 .Pages }}
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4 class="title">
+                                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+                            <p class="card-text">{{.Summary | truncate 140}}</p>
+                        </div>
+                        {{end}}
+                        {{end}}
+                    </div>
+                    <div class="all-news pull-right">
+                        <p><a href="/news">View all news...</a></p>
+                    </div>
+                </section>
+
+                <section class="projects">
+                    <div class="section-title">
+                        <h3>
+                            <span>Projects</span></h3>
+                    </div>
+                    <div class="row">
+                        {{ range first 2 .Site.Data.projects }}
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4 class="title">
+                                <i class="fa fa-cube" aria-hidden="true"></i>
+                                <a href="{{ .url | absURL }}">{{ .title }}</a>
+                            </h4>
+                            <p class="card-text">{{ .description }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <div class="all-publications pull-right">
+                        <p><a href="/projects">View all projects...</a></p>
+                    </div>
+                </section>
+
+
+                <section class="publications">
+                    <div class="section-title">
+                        <h3><span>Publications</span></h3>
+                    </div>
+                    <div class="row">
+                        {{ with .Site.GetPage "section" "publications" }}
+                        {{ range first 2 .Pages }}
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4 class="title"><i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h4>
+                            <h5 class="authors">{{ delimit .Params.authors ", " }}</h5>
+                            <h5 class="year">({{ .Params.date.Format "2006" }}).</h5>
+                        </div>
+                        {{end}}
+                        {{ end }}
+                    </div>
+                    <div class="all-publications pull-right">
+                        <p><a href="/publications">View all publications...</a></p>
+                    </div>
+                </section>
+
+            </div>
+            <div class="right col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <section class="announcements">
+                    <div class="section-title">
+                        <h3><span>Announcements</span></h3>
+                        <div>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <strong>Hiring Ph.D. students.</strong> If designing the next-generation Internet, low-latency AR/VR
+                            applications, 5G mobile networks, and smart vehicular networks are interesting to you,
+                            drop me an <a href="mailto: sshannigrahi@tntech.edu">email</a>.
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "footer" . }}
