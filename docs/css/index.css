@@ -65,18 +65,36 @@ a:hover {
     line-height: 2.4rem;
 }
 
-/**/
-.left, .middle, .right {
-    /*padding-left: 3rem;*/
+.middle {
+    padding-left: 2rem;
 }
 
-.middle {
-    padding-left: 3rem;
+@media (max-width: 992px){
+    .middle {
+        padding: 0;
+    }
+    section.announcements {
+        padding: 25px 0;
+    }
+    section.images {
+        display: none;
+    }
 }
 
 .announcements {
     margin-top: 2rem;
     /*padding: 0;*/
+}
+
+.images img {
+    margin-bottom: 4rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.images img:hover {
+    box-shadow: 5px 10px 18px #888;
+    transform: scale(1.01);
 }
 
 .announcements .section-title div {

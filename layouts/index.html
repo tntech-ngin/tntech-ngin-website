@@ -100,6 +100,21 @@
                         </div>
                     </div>
                 </section>
+                <section class="images">
+                    {{ $base := .Site.BaseURL }}
+                    <div>
+                        <a href="/projects">
+                            {{ $src := (print $base "images/home/virtual-reality.jpg") }}
+                            <img src="{{ $src }}" alt="" class="img-responsive" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/projects">
+                            {{ $src := (print $base "images/home/named-data-networking.jpg") }}
+                            <img src="{{ $src }}" alt="" class="img-responsive" />
+                        </a>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
