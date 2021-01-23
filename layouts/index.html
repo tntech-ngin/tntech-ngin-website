@@ -2,10 +2,10 @@
 <main>
     <div class="container-fluid">
         <div class="row">
-            <div class="left col-lg-0 col-md-0 col-sm-12 col-xs-12">
+            <div class="left col-lg-2 col-md-2 col-sm-12 col-xs-12">
 
             </div>
-            <div class="middle col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div class="middle col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 <section class="main-heading">
                     <h1><strong>{{ .Site.Title }}</strong></h1>
                     <h4>
@@ -100,21 +100,21 @@
                         </div>
                     </div>
                 </section>
-                <section class="images">
-                    {{ $base := .Site.BaseURL }}
-                    <div>
-                        <a href="/projects">
-                            {{ $src := (print $base "images/home/virtual-reality.jpg") }}
-                            <img src="{{ $src }}" alt="" class="img-responsive" />
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/projects">
-                            {{ $src := (print $base "images/home/named-data-networking.jpg") }}
-                            <img src="{{ $src }}" alt="" class="img-responsive" />
-                        </a>
-                    </div>
-                </section>
+<!--                <section class="images">-->
+<!--                    {{ $base := .Site.BaseURL }}-->
+<!--                    <div>-->
+<!--                        <a href="/projects">-->
+<!--                            {{ $src := (print $base "images/home/virtual-reality.jpg") }}-->
+<!--                            <img src="{{ $src }}" alt="" class="img-responsive" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div>-->
+<!--                        <a href="/projects">-->
+<!--                            {{ $src := (print $base "images/home/named-data-networking.jpg") }}-->
+<!--                            <img src="{{ $src }}" alt="" class="img-responsive" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </section>-->
             </div>
         </div>
     </div>

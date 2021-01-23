@@ -14,6 +14,7 @@ section {
 
 .main-heading h4 {
     font-size: 1.7rem;
+    line-height: 2.4rem;
 }
 
 .section-title h3 {
@@ -65,45 +66,20 @@ a:hover {
     line-height: 2.4rem;
 }
 
-.middle {
-    padding-left: 8rem;
-}
-
-@media (max-width: 1366px) {
-    .middle {
-        padding-left: 4rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .middle {
-        padding: 0;
-    }
-
-    section.announcements {
-        padding: 25px 0;
-    }
-
-    section.images {
-        display: none;
-    }
-}
-
 .announcements {
     margin-top: 2rem;
-    /*padding: 0;*/
 }
 
-.images img {
-    margin-bottom: 4rem;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
+/*.images img {*/
+/*    margin-bottom: 4rem;*/
+/*    -webkit-transition: all 0.2s ease-in-out;*/
+/*    transition: all 0.2s ease-in-out;*/
+/*}*/
 
-.images img:hover {
-    box-shadow: 5px 10px 18px #888;
-    transform: scale(1.01);
-}
+/*.images img:hover {*/
+/*    box-shadow: 5px 10px 18px #888;*/
+/*    transform: scale(1.01);*/
+/*}*/
 
 .announcements .section-title div {
     margin-top: 2rem;
@@ -112,3 +88,80 @@ a:hover {
 section.announcements {
     line-height: 2.4rem;
 }
+
+/*Media queries*/
+@media (min-width: 1700px) {
+    .left {
+        width: 16%;
+    }
+
+    .middle {
+        padding-left: 2rem;
+        width: 55%;
+    }
+
+    .right {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 1700px) {
+    .left {
+        width: 4%;
+    }
+
+    .middle {
+        padding-left: 2rem;
+        width: 68%;
+    }
+
+    .right {
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .left {
+        display: none;
+    }
+
+    .middle {
+        padding-left: 6rem;
+        width: 74.333%;
+    }
+
+    .right {
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .middle {
+        padding: 0 4rem;
+        width: 100%;
+    }
+
+    .right {
+        padding: 0 4rem;
+        width: 100%;
+    }
+
+    /*section.images {*/
+    /*    display: none;*/
+    /*}*/
+}
+
+@media (max-width: 640px) {
+    .middle {
+        padding: 0 2rem;
+    }
+
+    .right {
+        padding: 0 2rem;
+    }
+
+    /*section.images {*/
+    /*    display: none;*/
+    /*}*/
+}
+
