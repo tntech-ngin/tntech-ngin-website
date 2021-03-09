@@ -2,7 +2,7 @@
 echo -e "Deploying updates to GitHub..."
 
 # Build the project.
-/usr/local/bin/hugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo  # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 
