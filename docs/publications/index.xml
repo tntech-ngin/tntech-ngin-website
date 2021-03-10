@@ -6,7 +6,11 @@
     <description>Recent content in Publications on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2020 18:17:42 +0545</lastBuildDate><atom:link href="https://tntech-ngin.net/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2020 18:17:42 +0545</lastBuildDate>
+    
+	<atom:link href="https://tntech-ngin.net/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>What&#39;s in a Name? Naming Big Science Data in Information-Centric Networking</title>
       <link>https://tntech-ngin.net/publications/shannigrahi-2020-names/</link>

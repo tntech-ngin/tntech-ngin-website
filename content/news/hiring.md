@@ -2,7 +2,7 @@
 title: "Hiring Ph.D. Students"
 date: 2021-03-09T12:21:54-06:00
 draft: false
-slug: "tntech-hipft"
+slug: "hiring-students"
 ---
 
 ***************************************************

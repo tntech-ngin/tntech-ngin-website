@@ -6,13 +6,17 @@
     <description>Recent content in Home on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 12:21:54 -0600</lastBuildDate><atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 12:21:54 -0600</lastBuildDate>
+    
+	<atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Hiring Ph.D. Students</title>
-      <link>https://tntech-ngin.net/news/tntech-hipft/</link>
+      <link>https://tntech-ngin.net/news/hiring-students/</link>
       <pubDate>Tue, 09 Mar 2021 12:21:54 -0600</pubDate>
       
-      <guid>https://tntech-ngin.net/news/tntech-hipft/</guid>
+      <guid>https://tntech-ngin.net/news/hiring-students/</guid>
       <description>Multiple Fully Funded Ph.D. Positions at the Next Generation Networking Lab
 Tennessee Technological University, Cookeville, TN, USA
  We are looking for motivated students to work on several next-generation networking topics. The students will study, design, build, and deploy next-generation network infrastructure and protocols for various use cases such as Augmented Reality/Virtual Reality(AR/VR), Domain Science applications with Big Data (e.g., Climate Science, Genomics, Physics), Content Delivery Networks (CDNs), 5G mobile networks, and more.</description>
@@ -24,7 +28,11 @@ Tennessee Technological University, Cookeville, TN, USA
       <pubDate>Sun, 02 Aug 2020 20:15:07 +0545</pubDate>
       
       <guid>https://tntech-ngin.net/news/tntech-hipft/</guid>
-      <description>Prof. Shannigrahi in collaboration with Colorado State University has been awarded a National Science Foundation Grant to investigate errors that happen in the Internet. This measurement and error detection/correction study will not only improve our understanding of Internet errors but also improve large data transfers over the Internet. Link</description>
+      <description>&lt;p&gt;Prof. Shannigrahi in collaboration with Colorado State University has been awarded a 
+National Science Foundation Grant to investigate errors that happen in the Internet. 
+This measurement and error detection/correction study will not only improve our 
+understanding of Internet errors but also improve large data transfers over the 
+Internet. &lt;a href=&#34;https://nsf.gov/awardsearch/showAward?AWD_ID=2019163&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,7 +51,7 @@ Tennessee Technological University, Cookeville, TN, USA
       
       <guid>https://tntech-ngin.net/news/tntech-science-dmz/</guid>
       <description>&lt;p&gt;Prof. Shannigrahi and Prof. Rogers has received a $263K grant from National Science Foundation to create a Science DMZ at Tennessee Tech.
-Created in collaboration with IT services, this project will enhance movement of large datasets to and from the campus. It will also
+Created in collaboration with IT services, this project will enhance movement of large datasets to and from the campus. It will also 
 bring IPV6 deployment to the campus. &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=2018373&#34;&gt;Link&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

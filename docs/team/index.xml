@@ -6,6 +6,10 @@
     <description>Recent content in Our Team on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2020 08:35:25 +0545</lastBuildDate><atom:link href="https://tntech-ngin.net/team/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jul 2020 08:35:25 +0545</lastBuildDate>
+    
+	<atom:link href="https://tntech-ngin.net/team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>
