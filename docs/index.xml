@@ -9,13 +9,23 @@
     <lastBuildDate>Tue, 09 Mar 2021 12:21:54 -0600</lastBuildDate><atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hiring Ph.D. Students</title>
-      <link>https://tntech-ngin.net/news/tntech-hipft/</link>
+      <link>https://tntech-ngin.net/phd/</link>
       <pubDate>Tue, 09 Mar 2021 12:21:54 -0600</pubDate>
       
-      <guid>https://tntech-ngin.net/news/tntech-hipft/</guid>
+      <guid>https://tntech-ngin.net/phd/</guid>
       <description>Multiple Fully Funded Ph.D. Positions at the Next Generation Networking Lab
 Tennessee Technological University, Cookeville, TN, USA
  We are looking for motivated students to work on several next-generation networking topics. The students will study, design, build, and deploy next-generation network infrastructure and protocols for various use cases such as Augmented Reality/Virtual Reality(AR/VR), Domain Science applications with Big Data (e.g., Climate Science, Genomics, Physics), Content Delivery Networks (CDNs), 5G mobile networks, and more.</description>
+    </item>
+    
+    <item>
+      <title>NSF REU Grant Award</title>
+      <link>https://tntech-ngin.net/news/science-dmz-reu/</link>
+      <pubDate>Tue, 23 Feb 2021 20:15:07 +0545</pubDate>
+      
+      <guid>https://tntech-ngin.net/news/science-dmz-reu/</guid>
+      <description>Prof. Shannigrahi and Prof. Rogers have been awarded a National Science Foundation REU Grant to investigate the effects of an ScienceDMZ on a campus infrastructure. Link
+ScienceDMZ networks are widely deployed in US academic campuses. However, there is a lack of studies around how ScienceDMZs influence actual scientific data and workflows. This supplemental project will design and perform a measurement study that will quantify the improvements brought forward by the new science DMZ.</description>
     </item>
     
     <item>
