@@ -6,7 +6,16 @@
     <description>Recent content in Home on ngin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Jun 2021 12:21:54 -0600</lastBuildDate><atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 12:21:54 -0600</lastBuildDate><atom:link href="https://tntech-ngin.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Master&#39;s Defense - David Reddick</title>
+      <link>https://tntech-ngin.net/david/</link>
+      <pubDate>Wed, 30 Jun 2021 12:21:54 -0600</pubDate>
+      
+      <guid>https://tntech-ngin.net/david/</guid>
+      <description>David Reddick has successfully defended his master&amp;rsquo;s thesis - &amp;ldquo;Design of an Ndn-Based Data Distribution Infrastructure for Genomics Data Secured With a Novel Ledger Access System Founded on Attribute-Based Encryption&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>National Science Foundation Research Experiences for Undergraduates (REU): Science DMZ Performance Measurement</title>
       <link>https://tntech-ngin.net/reu/</link>
@@ -14,6 +23,15 @@
       
       <guid>https://tntech-ngin.net/reu/</guid>
       <description>This Research Experience for Undergraduates (REU) program is a National Science Foundation (NSF) funded research program at Tennessee Tech University. We have 2-3 positions over the Fall 2021 and Spring 2022 semesters. The undergraduate research assistants will learn to perform research under the guidance of Computer Science faculties. We welcome applications from all current undergraduate students at Tennessee Tech with strong interests in systems areas such as high-performance computing, networking, and distributed systems.</description>
+    </item>
+    
+    <item>
+      <title>Master&#39;s Defense -  Robert Thompson</title>
+      <link>https://tntech-ngin.net/robert/</link>
+      <pubDate>Mon, 10 May 2021 12:21:54 -0600</pubDate>
+      
+      <guid>https://tntech-ngin.net/robert/</guid>
+      <description>Robert Thompson has successfully defended his masters thesis - &amp;ldquo;An Efficient Vehicle-to-Everything Charging Coordination Protocol for Electric Vehicles Using Named Data Networking&amp;rdquo;</description>
     </item>
     
     <item>
